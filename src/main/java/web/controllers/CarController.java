@@ -13,7 +13,7 @@ import web.services.CarServiceImpl;
 public class CarController {
 
     @Autowired
-    private CarService carService = new CarServiceImpl();
+    private CarService carService;
 
 
     @GetMapping(value = "/cars")
